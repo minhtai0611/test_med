@@ -1,0 +1,29 @@
+.appointment-card {
+    width: 300px; /* Set the width of the card */
+    height: 100%; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    display: inline-block; 
+    margin: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+    float: right; 
+    background-color: #2196f3;
+}
+
+.appointment-card__content {
+    text-align: left;
+    margin-left: 10px;
+    color: #fff;
+  }
+
+  .appointment-card__title {
+    margin-bottom: 5px;
+  }
+  
+.appointment-card__message {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 5px;
+  }

@@ -10,6 +10,7 @@ import Navbar from './Components/Navbar/Navbar';
 import LandingPage from './Components/Landing_Page/Landing_Page';
 import SignUp from './Components/Sign_Up/Sign_Up';
 import Login from './Components/Login/Login';
+import Notification from './Components/Notification/Notification';
 // Function component for the main App
 function App() {
   // Render the main App component
@@ -17,6 +18,7 @@ function App() {
     <div className="App">
         {/* Set up BrowserRouter for routing */}
         <BrowserRouter>
+          <Notification />
           {/* Display the Navbar component */}
           <Navbar/>
           {/* Set up the Routes for different pages */}
