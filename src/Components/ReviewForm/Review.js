@@ -4,7 +4,7 @@ import Popup from 'reactjs-popup';
 import ReviewForm from './ReviewForm';
 import './Review.css';
 
-const Reviews = () => {
+const Review = () => {
   const data = [
     { name: 'John', age: 30 },
     { name: 'Jane', age: 25 },
