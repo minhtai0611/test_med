@@ -11,7 +11,8 @@ import LandingPage from './Components/Landing_Page/Landing_Page';
 import SignUp from './Components/Sign_Up/Sign_Up';
 import Login from './Components/Login/Login';
 import Notification from './Components/Notification/Notification';
-import ReviewForm from './Components/ReviewForm/ReviewForm';
+import Review from './Components/ReviewForm/Review';
+import ReportsLayout from './Components/ReportsLayout/ReportsLayout';
 // Function component for the main App
 function App() {
   // Render the main App component
@@ -28,7 +29,8 @@ function App() {
             <Route path="/signup" element={<SignUp/>}/>
             <Route path="/login" element={<Login/>}/>
             <Route path="/instant-consultation" element={<InstantConsultation />}/>
-            <Route path="/reviews" element={<ReviewForm />} />
+            <Route path="/reviews" element={<Review />} />
+            <Route path='/reports' element={<ReportsLayout />} /> 
           </Routes>
         </BrowserRouter>
     </div>
